@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 
+#include "Bullet.h"
 #include "ChocoChips.h"
 #include "ChocolateCone.h"
 #include "ChocolateSauce.h"
@@ -10,17 +11,23 @@
 
 int main() {
 
-	// Order "Chocolate Cone" + "Chocolate Sauce" + "Vanilla" + "Mango" + "Choco Chips"
-	const std::unique_ptr<IIceCream> ic = 
-		std::make_unique<ChocoChips>(
-		std::make_unique<Mango>(
-			std::make_unique<Vanilla>(
-				std::make_unique<ChocolateSauce>(
-					std::make_unique<ChocolateCone>()))));
+	CharacterFactory factory;
+	std::vector<std::shared_ptr<ICharacter>> text;
 
-	std::cout << "Total Cost: " <<ic->GetCost() << "\n";
-	std::cout << "Description: " << ic->GetDescription() << "\n";
+	// Create a sample text "HELLO" using shared flyweight characters
+	text.push_back(factory.GetCharacter('H'));
+	text.push_back(factory.GetCharacter('E'));
+	text.push_back(factory.GetCharacter('L'));
+	text.push_back(factory.GetCharacter('L'));
+	text.push_back(factory.GetCharacter('O'));
+
+	// Display characters with varying extrinsic state (position and font size)
+	int positionX = 0;
+	for (const auto& i : text)
+	{
+		i->Display(12, positionX, 10);
+		positionX += 20; // Increment positionX for each character
+	}
+
 	return 0;
 }
-// Total Cost: 72
-// Description: Chocolate Cone, Chocolate Sauce, Vanilla, Mango, Choco Chips

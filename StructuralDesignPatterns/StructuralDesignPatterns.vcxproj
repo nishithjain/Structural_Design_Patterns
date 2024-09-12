@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BankAPI.h" />
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="CakeCone.h" />
     <ClInclude Include="ChocoChips.h" />
     <ClInclude Include="Chocolate.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="YesBankClient.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="CakeCone.cpp" />
     <ClCompile Include="ChocoChips.cpp" />
     <ClCompile Include="Chocolate.cpp" />
