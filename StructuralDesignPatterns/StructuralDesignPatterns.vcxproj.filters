@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\01 Adapter">
+      <UniqueIdentifier>{960f8c47-663e-4eda-a1bf-06ed76759d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01 Adapter">
+      <UniqueIdentifier>{882354a9-d37f-48b7-b5fb-2ed375c78515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02 Facade">
+      <UniqueIdentifier>{e9dc37dc-4fac-490a-b29c-33087df8176d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 Facade">
+      <UniqueIdentifier>{556d8135-3fc4-4c1b-a16b-28f5f24ccce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03 Decorator">
+      <UniqueIdentifier>{a9dfb2e0-c12a-4d01-8ed8-0480fda2dd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 Decorator">
+      <UniqueIdentifier>{08cf8812-e4d5-43b5-a762-d32d1f9f912f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankAPI.h">
+      <Filter>Header Files\01 Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="ICICIBankAdapter.h">
+      <Filter>Header Files\01 Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="ICICIBankClient.h">
+      <Filter>Header Files\01 Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="PhonePe.h">
+      <Filter>Header Files\01 Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="YesBankAdapter.h">
+      <Filter>Header Files\01 Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="YesBankClient.h">
+      <Filter>Header Files\01 Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicLoader.h">
+      <Filter>Header Files\02 Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>Header Files\02 Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeControl.h">
+      <Filter>Header Files\02 Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="LyricsDisplay.h">
+      <Filter>Header Files\02 Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayerFacade.h">
+      <Filter>Header Files\02 Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="WaffleCone.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="SugarCone.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="CakeCone.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="ChocolateCone.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Vanilla.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="ChocoChips.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Chocolate.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="ChocolateSauce.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mango.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="OreoCookies.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Strawberry.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="IIceCream.h">
+      <Filter>Header Files\03 Decorator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="YesBankClient.cpp">
+      <Filter>Source Files\01 Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="YesBankAdapter.cpp">
+      <Filter>Source Files\01 Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="PhonePe.cpp">
+      <Filter>Source Files\01 Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="ICICIBankClient.cpp">
+      <Filter>Source Files\01 Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="ICICIBankAdapter.cpp">
+      <Filter>Source Files\01 Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicLoader.cpp">
+      <Filter>Source Files\02 Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>Source Files\02 Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeControl.cpp">
+      <Filter>Source Files\02 Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="LyricsDisplay.cpp">
+      <Filter>Source Files\02 Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayerFacade.cpp">
+      <Filter>Source Files\02 Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="WaffleCone.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="SugarCone.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="CakeCone.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="ChocolateCone.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Vanilla.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="ChocoChips.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Chocolate.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="ChocolateSauce.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Mango.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="OreoCookies.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Strawberry.cpp">
+      <Filter>Source Files\03 Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

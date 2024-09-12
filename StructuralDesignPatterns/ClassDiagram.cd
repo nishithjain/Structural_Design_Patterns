@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CakeCone">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CakeCone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChocoChips">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ChocoChips.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chocolate">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAIAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chocolate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChocolateCone">
+    <Position X="24.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChocolateCone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChocolateSauce">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ChocolateSauce.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IIceCream">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIceCream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mango">
+    <Position X="20" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAIEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mango.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OreoCookies">
+    <Position X="26.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OreoCookies.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strawberry">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strawberry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarCone">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SugarCone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vanilla">
+    <Position X="22.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Vanilla.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaffleCone">
+    <Position X="29" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WaffleCone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
